@@ -77,6 +77,7 @@ nav a {
 
 .btn.btn-default:hover {
     color: #db458b;
+    width: 500px;
     border: 3px solid #db458b;
     box-shadow: 0 0 80px #e48abc;
     cursor: pointer;

@@ -1,0 +1,124 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 35px;
+    padding-top: 25px;
+    font-size: 20px;
+    font-family: 'Dosis', serif;
+}
+
+nav a {
+    color: #bd7b99;
+    text-decoration: none;
+}
+
+.logo {
+    float: left;
+}
+
+.btn-group {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.btn {
+    flex: 1;
+}
+
+.btn.btn-default {
+    background: transparent;
+    color: #bd7b99;
+    width: 240px;
+    height: 80px;
+    border-radius: 25px;
+    margin: 100px;
+    border: .1px solid#c49bad;
+    box-shadow: 0 0 12px #e48abc;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Dosis', serif;
+    font-stretch: extra-expanded;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.btn.btn-default:focus {
+    outline: none;
+}
+
+
+.btn.btn-default:hover {
+    color: #db458b;
+    border: 3px solid #db458b;
+    box-shadow: 0 0 80px #e48abc;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn.btn-default:hover:before {
+    transform: translateX(300px) skewX(-15deg);
+    border: 3px solid #c49bad;
+    box-shadow: 0 0 12px #e48abc;
+    color: #af6487;
+    opacity: .6;
+    transition: 1s;
+}
+
+.btn.btn-default:hover:after {
+    transform: translateX(300px) skewX(-15deg);
+    border: 3px solid #c49bad;
+    box-shadow: 0 0 12px #d66fa8;
+    color: #af6487;
+    opacity: 1;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
